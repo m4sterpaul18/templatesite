@@ -5,7 +5,10 @@ $(function(){
 	$('#mail-toggle').on('mouseleave mouseover',()=>{
 		$('#mail').slideToggle();
 	});	
-	$('#msg-toggle').on('mouseleave mouseover',()=>{
-		$('#msg').slideToggle();
+	$('#twitter-toggle').on('mouseleave mouseover',()=>{
+		$('#twit').slideToggle();
 	});	
+	$('#phone-toggle').on('mouseleave mouseover',()=>{
+		$('#phone').slideToggle();
+	});
 });
