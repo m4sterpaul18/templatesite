@@ -4,16 +4,45 @@
 	--primary-color:#53b3b1; /*lightblue*/
 	--secondary-color:#00fffa;
 }
-body{
-	background: url("pic.jpeg");
+html{
+	scroll-behavior: smooth;
 }
+
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+	min-height: 100%;
+	min-width: 100%;
+	
+	background:url(old7.jpeg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.form-page{
+	width: 100%;
+	border:3px solid var(--font-color2);
+	border-radius: 10px;
+	padding: 1rem;
+	margin:5rem 0;
+	background-color: rgb(83, 179, 177,0.9);
+}
+
 .form{
+
 	width: 100%;
 	color:var(--font-color2);
 	position: relative;
-	border:3px solid var(--font-color2);
 	padding: 2rem;
 	border-radius: 10px;
-	background-color: 	rgb(83, 179, 177,0.9);
 	margin: 5rem 0rem;
+}
+
+.btn-nav{
+	margin:1rem;
 }
