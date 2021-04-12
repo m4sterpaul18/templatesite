@@ -1,11 +1,18 @@
 :root{
-	--font-color:#265655; /*greyish*/
+	--nav-color:#5ea6e2; 
+	--font-color:#88a7c1; /*lighter share of blue*/
 	--font-color2:#ffffff; /*white*/
-	--primary-color:#53b3b1; /*lightblue*/
+	--primary-color:#066dc5; /*darkblue*/
 }
 /*in general css*/
 html{
 	scroll-behavior: smooth;
+}
+@media screen and (max-width: 450px){
+	.footer-link a,h6{
+		font-size:3vw;
+	}
+	.
 }
 
 *{
@@ -29,22 +36,10 @@ h1,h2,h3{
 	-moz-transform: scale(1.3);
 	-o-transform: scale(1.3);
 }
-/*.button{
-	margin:0 0.5rem;
-	text-transform: uppercase;
-	background-color:transparent;
-	border:2px solid var(--primary-color);
-	color:var(--font-color2);
-	width: 12vw;
-	height: 5rem;
-	transition: 0.2s ease;	
-}
-.button:hover{
-	background-color:var(--primary-color);
-	color:var(--font-color2);
 
-}*/
 .jumbotron{
+	text-align: justify;
+	font-size: 1.2rem;
 	min-height: 450px;
 	background-color: var(--primary-color);
 	color:var(--font-color2);
@@ -64,7 +59,7 @@ h1,h2,h3{
 }
 
 .navbar a{
-	color:var(--primary-color);
+	color:var(--nav-color);
 	text-transform: uppercase;
 	font-weight: 600;
 	transition: 0.2s ease;
@@ -94,7 +89,7 @@ h1,h2,h3{
 	text-align: center;
 	top:25%;
 }
-.btn-outline-info{
+.btn-outline-primary{
 	color:var(--font-color2);
 	border:1px solid var(--primary-color);
 	border-radius: 1px;
@@ -168,7 +163,7 @@ h1,h2,h3{
 /*googlefont*/
 
 #brand{
-	color:var(--primary-color);
+	color:var(--nav-color);
 }
 
 #brand:hover{
