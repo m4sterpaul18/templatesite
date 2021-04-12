@@ -1,0 +1,176 @@
+:root{
+	--font-color:#265655; /*greyish*/
+	--font-color2:#ffffff; /*white*/
+	--primary-color:#53b3b1; /*lightblue*/
+}
+/*in general css*/
+html{
+	scroll-behavior: smooth;
+}
+
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3{
+	font-weight: 700;
+}
+
+.hidden{
+	display: none;
+}
+
+.scale{
+	transition: 0.2s ease;
+}
+.scale:hover{
+	transform:scale(1.3);
+	-webkit-transform: scale(1.3);
+	-moz-transform: scale(1.3);
+	-o-transform: scale(1.3);
+}
+/*.button{
+	margin:0 0.5rem;
+	text-transform: uppercase;
+	background-color:transparent;
+	border:2px solid var(--primary-color);
+	color:var(--font-color2);
+	width: 12vw;
+	height: 5rem;
+	transition: 0.2s ease;	
+}
+.button:hover{
+	background-color:var(--primary-color);
+	color:var(--font-color2);
+
+}*/
+.jumbotron{
+	min-height: 450px;
+	background-color: var(--primary-color);
+	color:var(--font-color2);
+
+}
+.jumbotron h3{
+	color:var(--font-color2);	
+}
+
+/*navigation-bar*/
+.navbar{
+	font-size:1.2rem;
+	background: transparent;
+}
+.navbar li{
+	margin: 0 0.6rem;
+}
+
+.navbar a{
+	color:var(--primary-color);
+	text-transform: uppercase;
+	font-weight: 600;
+	transition: 0.2s ease;
+
+}
+.navbar a:hover{
+	color:var(--font-color2);
+	border-bottom:2px solid var(--font-color2);
+	
+}
+
+/*homepage*/
+
+#home{
+	height: 100vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('test.jpeg');
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+}
+
+.homepage{
+	position: relative;
+	color:var(--font-color2);
+	text-align: center;
+	top:25%;
+}
+.btn-outline-info{
+	color:var(--font-color2);
+	border:1px solid var(--primary-color);
+	border-radius: 1px;
+	margin: 0 0.5rem;
+}
+
+/*about*/
+
+.about{
+	min-height: 50vh;
+}
+.about h1{
+	margin:6rem 0;
+	color:var(--primary-color);
+}
+.image{
+	object-fit:cover; 
+	width: 100%;
+	height: 450px;
+}
+.customer{
+	width: 256px;
+	height:256px;
+	object-fit: cover;
+}
+/*contact-page*/
+.contact{
+	min-height: 400px;
+
+}
+.contact a{
+	color:var(--font-color2);
+}
+/*video-background*/
+
+
+.video-background{
+	margin-bottom: 0;
+	width:100%;
+	height: 70vh;
+	z-index: -10;
+	object-fit: cover;	
+	margin-top:10rem;
+}
+
+.apply{
+	color:var(--font-color2);
+	padding: 2rem;
+	margin-bottom: 10rem;
+	background-color: var(--primary-color);
+	height: auto;
+}
+
+/*footer*/
+.footer{
+	padding: 1rem 1rem;
+	background-color:var(--primary-color);
+}
+.footer p{
+	color:white;
+}
+
+.footer-link a{
+	color:var(--font-color);
+	transition: 0.2s ease;
+}
+.footer-link a:hover{
+	color:var(--font-color2);
+}
+
+/*googlefont*/
+
+#brand{
+	color:var(--primary-color);
+}
+
+#brand:hover{
+	cursor: pointer;
+}
