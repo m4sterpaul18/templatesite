@@ -1,14 +1,14 @@
 $(function(){
 	$('#fb-toggle').on('mouseleave mouseover',()=>{
-		$('#fb').slideToggle();
+		$('#fb').slideToggle(400);
 	});	
 	$('#mail-toggle').on('mouseleave mouseover',()=>{
-		$('#mail').slideToggle();
+		$('#mail').slideToggle(400);
 	});	
 	$('#twitter-toggle').on('mouseleave mouseover',()=>{
-		$('#twit').slideToggle();
+		$('#twit').slideToggle(400);
 	});	
 	$('#phone-toggle').on('mouseleave mouseover',()=>{
-		$('#phone').slideToggle();
+		$('#phone').slideToggle(400);
 	});
 });
