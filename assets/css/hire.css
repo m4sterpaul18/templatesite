@@ -1,0 +1,34 @@
+:root{
+	--nav-color:#5ea6e2; 
+	--font-color:#88a7c1; /*lighter share of blue*/
+	--font-color2:#ffffff; /*white*/
+	--primary-color:#066dc5; /*darkblue*/
+}
+html{
+	scroll-behavior: smooth;
+}
+
+*{
+	font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3{
+	font-weight: 700;
+}
+
+/*landing-page*/
+#hirepage{
+	height: 100vh;
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('hire.jpeg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	object-fit: cover;
+}
+
+.hire{
+	position: relative;
+	color:var(--font-color2);
+	top:25%;
+}
